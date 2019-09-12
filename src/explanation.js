@@ -1,8 +1,8 @@
 import React from "react";
 
-const Explanation = ( {explanation} ) => {
+const Explanation = ( props ) => {
     return (
-        <h2>{explanation} </h2>
+        <h2>{props.explanation}</h2>
     )
 };
 

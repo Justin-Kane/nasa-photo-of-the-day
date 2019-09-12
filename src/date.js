@@ -1,8 +1,8 @@
 import React from "react";
 
-const Date = ( {date} ) => {
+const Date = ( props ) => {
     return (
-        <h1> Today's date is {date} </h1>
+        <h1>{props.date} </h1>
     )
 };
 

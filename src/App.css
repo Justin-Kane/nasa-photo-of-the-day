@@ -23,6 +23,22 @@
   color: #61dafb;
 }
 
+h1 {
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+h2 {
+  padding: 4rem;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+img {
+  height: 80vh;
+  width: auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
